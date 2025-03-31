@@ -1,4 +1,51 @@
-# Analisis Sentimen dan Pemrosesan Teks dengan Python menggunakan Ulasan Amazon
+# Classification Google Colab
+
+## Deskripsi
+Google Colab ini berisi implementasi klasifikasi teks menggunakan Logistic Regression. Proses yang dilakukan mencakup pemrosesan data, eksplorasi, pembersihan, rekayasa fitur, pemisahan dataset, pelatihan model, tuning hyperparameter, dan evaluasi akhir.
+
+## Dependensi
+Pastikan Python dan library berikut sudah terinstall:
+```bash
+pip install numpy pandas matplotlib seaborn wordcloud nltk scikit-learn
+```
+
+## Cara Penggunaan
+1. **Load Dataset**  
+   Google Colab ini dimulai dengan memuat dataset yang digunakan untuk klasifikasi.
+
+2. **Eksplorasi Data**  
+   Melakukan analisis eksploratif dengan visualisasi dan statistik dasar.
+
+3. **Pembersihan Data**  
+   - Menghapus karakter khusus dan tanda baca
+   - Menghilangkan stopwords
+   - Lemmatization untuk menyederhanakan kata
+
+4. **Rekayasa Fitur**  
+   - Menggunakan TF-IDF untuk representasi teks
+
+5. **Split Dataset**  
+   - Membagi dataset menjadi train, validasi, dan test set
+
+6. **Pelatihan Model**  
+   - Menggunakan Logistic Regression untuk klasifikasi
+   - Mengevaluasi dengan metrik seperti akurasi dan confusion matrix
+
+7. **Hyperparameter Tuning**  
+   - Mengoptimalkan model agar mendapatkan performa terbaik
+
+8. **Evaluasi Final**  
+   - Mengukur performa model pada data test
+
+## Hasil
+Google Colab ini menampilkan metrik evaluasi model seperti akurasi, classification report, dan confusion matrix untuk melihat seberapa baik model bekerja.
+
+## Link Google Colab
+Buka Google Colab di link berikut untuk menjalankan kode secara langsung:
+[Google Colab Notebook](https://colab.research.google.com/drive/1ljIgUG65GTcuhj8ZkR46oWeK37-wii9p?usp=sharing)
+
+
+# Analisis Sentimen dan Pemrosesan Teks dengan Python menggunakan Ulasan Amazon (Optimasi) 
 
 ## Ringkasan
 Proyek ini berfokus pada analisis sentimen menggunakan dataset yang berisi ulasan-ulasan di platform Amazon. Prosesnya mencakup prapemrosesan teks, visualisasi, rekayasa fitur, dan pemodelan topik menggunakan teknik pembelajaran mesin.
@@ -91,7 +138,7 @@ Skrip ini membaca dataset bernama `Dataset_Pertama_train.csv`. Pastikan dataset 
   ```
 
 
-# Sentiment Analysis with TF-IDF and Machine Learning
+# Sentiment Analysis with TF-IDF and Machine Learning (Testing)
 
 ## Deskripsi
 Program ini merupakan sistem analisis sentimen berbasis machine learning yang menggunakan TF-IDF sebagai teknik ekstraksi fitur dan model yang telah dilatih sebelumnya untuk melakukan klasifikasi sentimen terhadap teks review.
