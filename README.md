@@ -105,8 +105,9 @@ Program ini merupakan sistem analisis sentimen berbasis machine learning yang me
 ## Instalasi
 ### 1. Clone Repository
 ```bash
-git clone https://github.com/username/repository.git
-cd repository
+git clone https://github.com/AgentlReal/BigDataFesmaro.git
+cd BigDataFesmaro
+cd "Model Testing Program"
 ```
 ### 2. Instal Dependensi
 Pastikan Anda memiliki Python terinstal, kemudian jalankan:
@@ -125,15 +126,15 @@ nltk.download('wordnet')
 1. Pastikan file `tfidf_vectorizer.pkl` dan `best_model.pkl` tersedia di direktori proyek.
 2. Jalankan program dengan perintah:
 ```bash
-python sentiment_analysis.py
+python test.py
 ```
 3. Masukkan teks review, lalu tekan enter untuk mendapatkan hasil prediksi sentimen.
 4. Ketik `exit` untuk keluar dari program.
 
 ## Struktur Proyek
 ```
-/
-|-- sentiment_analysis.py  # File utama
+/Model Testing Program/
+|-- test.py  # File utama
 |-- tfidf_vectorizer.pkl   # Model TF-IDF yang telah dilatih
 |-- best_model.pkl         # Model machine learning yang telah dilatih
 |-- requirements.txt       # Daftar dependensi Python
