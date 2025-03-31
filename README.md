@@ -115,13 +115,6 @@ Pastikan Anda memiliki Python terinstal, kemudian jalankan:
 pip install -r requirements.txt
 ```
 
-### 3. Download NLTK Resources
-```python
-import nltk
-nltk.download('stopwords')
-nltk.download('wordnet')
-```
-
 ## Penggunaan
 1. Pastikan file `tfidf_vectorizer.pkl` dan `best_model.pkl` tersedia di direktori proyek.
 2. Jalankan program dengan perintah:
@@ -138,7 +131,6 @@ python test.py
 |-- tfidf_vectorizer.pkl   # Model TF-IDF yang telah dilatih
 |-- best_model.pkl         # Model machine learning yang telah dilatih
 |-- requirements.txt       # Daftar dependensi Python
-|-- README.md              # Dokumentasi proyek
 ```
 
 ## Dependensi
